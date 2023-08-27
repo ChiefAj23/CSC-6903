@@ -27,3 +27,10 @@ direction_highest_variance = Eigenvectors[:, max_variance_index]
 
 # Display results
 print("Direction with highest variance:", direction_highest_variance)
+
+# Output:
+# (base) chiefaj@Abhijeets-MacBook-Pro CSC-6903 % /Users/chiefaj/miniconda3/envs/.env/bin/python "/Users/chiefaj/Tntech-Masters/CSC-6903/Eigen Value and Eigen Vector.py"
+# Eigenvalues: [5. 1.]
+# Eigenvectors: [[ 0.70710678 -0.70710678]
+#  [ 0.70710678  0.70710678]]
+# Direction with highest variance: [0.70710678 0.70710678]

@@ -49,7 +49,7 @@ cnn_history = cnn_model.fit(x_train, y_train, epochs=10, batch_size=32, validati
 
 
 
-# Displaying model information and plotting history remain the same
+# Displaying model information and plotting
 def display_model_info(model, history, model_name, batch_size, epochs, optimizer, learning_rate):
     # Extracting details from the model
     if model_name == 'CNN':
